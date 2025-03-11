@@ -1,0 +1,59 @@
+.terms-content {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px #4a90e2;
+
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+    text-shadow: 0px 4px 15px rgba(74, 144, 226, 0.7);
+}
+
+.section p {
+    font-size: 1.1rem;
+    color: white;
+    line-height: 1.6;
+    margin-top: 10px;
+    text-shadow: 0px 4px 15px rgba(74, 144, 226, 0.7);
+}
+
+.section ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.section ul li {
+    font-size: 1.1rem;
+    color: white;
+    line-height: 1.6;
+    margin-top: 15px; 
+    text-shadow: 0px 4px 15px rgba(74, 144, 226, 0.7);
+    padding: 5px 0; 
+    transition: transform 0.2s, color 0.2s;
+}
+
+.section ul li:hover {
+    transform: scale(1.02);
+    color: #4a90e2;
+}
+
+.section ul li::before {
+    content: "\2022";
+    color: #4a90e2;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    vertical-align: middle;
+}

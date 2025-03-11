@@ -1,0 +1,90 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #4a90e2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 4px 15px rgba(74, 144, 226, 0.7);
+    animation: fadeIn 1s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.create-card {
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.create-form .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.create-form label {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.create-form input, .create-form select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.create-form input:focus, .create-form select:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+.create-form .action-group {
+    margin-top: 20px;
+}
+
+.create-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-btn:hover {
+    background-color: #7eb9fd
+}
+
+.login-redirect {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.login-redirect a {
+    color: #4a90e2;
+}
+
+.login-redirect a:hover {
+    color: #1e3a8a;
+    text-decoration: underline;
+}
